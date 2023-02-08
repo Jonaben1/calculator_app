@@ -26,9 +26,8 @@ def solver(num1, num2, num3, num4, num5, num6):
     for x in range(-100, 100):
         for y in range(-50, 50):
             if (num1 * x) + (num2 * y) == num3 and (num4 * x) + (num5 * y) == num6:
-                res = x, y
-    st.text(f'x = {res[0]} \
-            \ny = {res[1]}')
+                st.text(f'x = {x} \
+                        \ny = {y}')
 
 
 def simul_3_eqn():
@@ -55,9 +54,8 @@ def SOLVER(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11, n12):
         for y in range(-100, 100):
             for z in range(-100, 100):
                 if (n1*x + n2*y + n3*z) == n4 and (n5*x + n6*y + n7*z) == n8 and (n9*x + n10*y + n11*z) == n12:
-                    soln = x, y, z
-                    st.text(f'x = {soln[0]} \
-                           \ny = {soln[1]} \
-                           \nz = {soln[2]}')
+                    st.text(f'x = {x} \
+                            \ny = {y} \
+                            \nz = {z}')
 
 
