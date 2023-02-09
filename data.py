@@ -46,7 +46,3 @@ def flatten(x, freq):
         res.append(list(repeat(i[0], i[1])))
     res = [i for k in res for i in k]
     return res
-
-def bar_chart(x, y):
-    df = pd.DataFrame(x,y)
-    st.pyplot(df)
